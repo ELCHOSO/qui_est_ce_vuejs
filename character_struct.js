@@ -112,7 +112,7 @@ personnages = [
     {
         name = "liam",
         hair_colour = 1,
-        hair_type = 10,
+        hair_type = 100,
         beard = 1,
         glasses = 0,
         gender = 0,
@@ -228,5 +228,15 @@ personnages = [
         gender = -1,
         chapeau = -1,
         sprite = "sprites/banana.jpg"
+    },
+    {   
+        name = "elliot",
+        hair_colour = 2,
+        hair_type = 1,
+        beard = 0,
+        glasses = 0,
+        gender = 0,
+        chapeau = 0,
+        sprite = "sprites/elliot.jpg"
     }
 ]

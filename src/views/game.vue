@@ -7,9 +7,15 @@
         </v-app-bar>
         <v-row align="center" justify="center">
             <v-col>
-                <v-flex v-for="char in characters" :key="char.name">
-                    {{char.name}}
-                </v-flex>
+                <v-container fluid grid-list-md>
+                    <v-layout row wrap>
+                        <v-flex v-for="char in characters" :key="char.name">
+                            <v-card>
+                                {{char.name}}
+                            </v-card>
+                        </v-flex>
+                    </v-layout>
+                </v-container>
             </v-col>
         </v-row>
     </v-app>

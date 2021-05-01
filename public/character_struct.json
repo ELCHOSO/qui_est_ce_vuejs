@@ -231,14 +231,14 @@
             "sprite" : "sprites/banana.jpg"
         },
         {
-            "name" : "sophie",
-            "hair_colour" : -1,
+            "name" : "Elliot",
+            "hair_colour" : 2,
             "hair_type" : -1,
             "beard" : -1,
             "glasses" : -1,
             "gender" : -1,
             "chapeau" : -1,
-            "sprite" : "sprites/sophie.jpg"
+            "sprite" : "sprites/sarah.jpg"
         }
     ]
 }

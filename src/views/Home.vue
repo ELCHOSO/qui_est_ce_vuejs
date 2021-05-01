@@ -8,7 +8,7 @@
                 </v-row>
                 <v-row justify="start" align="center" class="mt-10">
                     <v-spacer></v-spacer>
-                    <v-btn elevation="0" x-large color="">Jouer</v-btn>
+                    <v-btn elevation="0" outlined x-large dark :color="white" to='/game'>Jouer</v-btn>
                     <v-spacer></v-spacer>
                 </v-row>
             </v-col>

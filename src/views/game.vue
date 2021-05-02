@@ -11,8 +11,10 @@
             </h1>
         </v-row>
         <v-row justify="center" align="center">
-            <img :src="characters[answer].sprite" v-if="reveal">
-            <img :src="flipped" v-else>
+            <v-btn x-large @click="reset">Reset</v-btn>
+            <img :src="characters[answer].sprite" v-if="reveal" class="mx-5">
+            <img :src="flipped" v-else class="mx-5">
+            <v-btn x-large :disabled="!show_btn" @click="valider">Valider</v-btn>
         </v-row>
         <v-row align="center" justify="center">
             <v-col>
@@ -98,6 +100,8 @@ export default {
     this.epitech = epitech
     this.cheatcode = ''
     this.reveal = false
+    this.valid_nbr = 0
+    this.show_btn = false
   },
   methods: {
     check_cheatcode () {
@@ -109,7 +113,36 @@ export default {
       this.$forceUpdate()
     },
     switch_image (index) {
+      this.valid_nbr = 0
+      this.characters.forEach(char => {
+        if (char.valid === true) {
+          this.valid_nbr++
+        }
+      })
+      if (this.valid_nbr === 1) {
+        this.show_btn = true
+      } else {
+        this.show_btn = false
+      }
+      console.log(this.valid_nbr)
       this.$forceUpdate()
+    },
+    reset () {
+      this.characters.forEach(char => {
+        char.valid = true
+      })
+      this.$forceUpdate()
+    },
+    valider () {
+      let i = 0
+      this.characters.forEach((char, index) => {
+        if (char.valid === true) {
+          i = index
+        }
+      })
+      if (this.characters[this.answer].name === this.characters[i].name) {
+        console.log('gagné')
+      }
     }
   }
 }

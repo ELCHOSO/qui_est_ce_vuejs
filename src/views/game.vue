@@ -14,7 +14,16 @@
             <v-btn x-large @click="reset">Reset</v-btn>
             <img :src="characters[answer].sprite" v-if="reveal" class="mx-5">
             <img :src="flipped" v-else class="mx-5">
-            <v-btn x-large :disabled="!show_btn" @click="valider">Valider</v-btn>
+            <v-dialog v-click-outside="dialog = false" v-model="dialog" width="150">
+                <template v-slot:activator="{ on, attrs }">
+                    <v-btn x-large :disabled="!show_btn" @click="valider" v-bind="attrs" v-on="on">Valider</v-btn>
+                </template>
+                <v-card>
+                    <h1 v-if="win">C'est win !</h1>
+                    <h1 v-if="!win">C'est lose !</h1>
+                    <img :src="characters[answer].sprite">
+                </v-card>
+            </v-dialog>
         </v-row>
         <v-row align="center" justify="center">
             <v-col>
@@ -102,6 +111,8 @@ export default {
     this.reveal = false
     this.valid_nbr = 0
     this.show_btn = false
+    this.dialog = false
+    this.win = false
   },
   methods: {
     check_cheatcode () {
@@ -124,13 +135,13 @@ export default {
       } else {
         this.show_btn = false
       }
-      console.log(this.valid_nbr)
       this.$forceUpdate()
     },
     reset () {
       this.characters.forEach(char => {
         char.valid = true
       })
+      this.show_btn = false
       this.$forceUpdate()
     },
     valider () {
@@ -141,8 +152,9 @@ export default {
         }
       })
       if (this.characters[this.answer].name === this.characters[i].name) {
-        console.log('gagné')
+        this.win = true
       }
+      this.$forceUpdate()
     }
   }
 }

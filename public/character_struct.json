@@ -7,8 +7,7 @@
             "beard" : 2,
             "glasses" : 0,
             "gender" : 0,
-            "chapeau" : 0,
-            "sprite" : "alain.jpg"
+            "chapeau" : 0
         },
         {
             "name" : "ali",
@@ -17,8 +16,7 @@
             "beard" : 0,
             "glasses" : 1,
             "gender" : 0,
-            "chapeau" : 0,
-            "sprite" : "ali.jpg"
+            "chapeau" : 0
         },
         {
             "name" : "amir",
@@ -27,8 +25,7 @@
             "beard" : 0,
             "glasses" : 0,
             "gender" : 0,
-            "chapeau" : 0,
-            "sprite" : "amir.jpg"
+            "chapeau" : 0
         },
         {
             "name" : "christine",
@@ -37,8 +34,7 @@
             "beard" : 0,
             "glasses" : 0,
             "gender" : 1,
-            "chapeau" : 0,
-            "sprite" : "christine.jpg"
+            "chapeau" : 0
         },
         {
             "name" : "diego",
@@ -47,8 +43,7 @@
             "beard" : 1,
             "glasses" : 0,
             "gender" : 0,
-            "chapeau" : 0,
-            "sprite" : "diego.jpg"
+            "chapeau" : 0
         },
         {
             "name" : "hugo",
@@ -57,8 +52,7 @@
             "beard" : 3,
             "glasses" : 0,
             "gender" : 0,
-            "chapeau" : 0,
-            "sprite" : "hugo.jpg"
+            "chapeau" : 0
         },
         {
             "name" : "ines",
@@ -67,8 +61,7 @@
             "beard" : 0,
             "glasses" : 0,
             "gender" : 1,
-            "chapeau" : 1,
-            "sprite" : "ines.jpg"
+            "chapeau" : 1
         },
         {
             "name" : "jacques",
@@ -77,8 +70,7 @@
             "beard" : 3,
             "glasses" : 0,
             "gender" : 0,
-            "chapeau" : 0,
-            "sprite" : "jacques.jpg"
+            "chapeau" : 0
         },
         {
             "name" : "julien",
@@ -87,8 +79,7 @@
             "beard" : 0,
             "glasses" : 0,
             "gender" : 0,
-            "chapeau" : 0,
-            "sprite" : "julien.jpg"
+            "chapeau" : 0
         },
         {
             "name" : "laetitia",
@@ -97,8 +88,7 @@
             "beard" : 0,
             "glasses" : 1,
             "gender" : 1,
-            "chapeau" : 1,
-            "sprite" : "laetitia.jpg"
+            "chapeau" : 1
         },
         {
             "name" : "leo",
@@ -107,8 +97,7 @@
             "beard" : 0,
             "glasses" : 1,
             "gender" : 0,
-            "chapeau" : 0,
-            "sprite" : "leo.jpg"
+            "chapeau" : 0
         },
         {
             "name" : "liam",
@@ -117,8 +106,7 @@
             "beard" : 1,
             "glasses" : 0,
             "gender" : 0,
-            "chapeau" : 1,
-            "sprite" : "liam.jpg"
+            "chapeau" : 1
         },
         {
             "name" : "lilou",
@@ -127,8 +115,7 @@
             "beard" : 0,
             "glasses" : 0,
             "gender" : 0,
-            "chapeau" : 0,
-            "sprite" : "lilou.jpg"
+            "chapeau" : 0
         },
         {
             "name" : "mathieu",
@@ -137,8 +124,7 @@
             "beard" : 0,
             "glasses" : 1,
             "gender" : 0,
-            "chapeau" : 1,
-            "sprite" : "mathieu.jpg"
+            "chapeau" : 1
         },
         {
             "name" : "mathis",
@@ -147,8 +133,7 @@
             "beard" : 3,
             "glasses" : 0,
             "gender" : 0,
-            "chapeau" : 0,
-            "sprite" : "mathis.jpg"
+            "chapeau" : 0
         },
         {
             "name" : "nathan",
@@ -157,8 +142,7 @@
             "beard" : 0,
             "glasses" : 0,
             "gender" : 0,
-            "chapeau" : 0,
-            "sprite" : "nathan.jpg"
+            "chapeau" : 0
         },
         {
             "name" : "noemie",
@@ -167,8 +151,7 @@
             "beard" : 0,
             "glasses" : 0,
             "gender" : 1,
-            "chapeau" : 0,
-            "sprite" : "noemie.jpg"
+            "chapeau" : 0
         },
         {
             "name" : "pauline",
@@ -177,8 +160,7 @@
             "beard" : 0,
             "glasses" : 1,
             "gender" : 1,
-            "chapeau" : 0,
-            "sprite" : "pauline.jpg"
+            "chapeau" : 0
         },
         {
             "name" : "sebastien",
@@ -187,8 +169,7 @@
             "beard" : 0,
             "glasses" : 0,
             "gender" : 0,
-            "chapeau" : 1,
-            "sprite" : "sebastien.jpg"
+            "chapeau" : 1
         },
         {
             "name" : "sophie",
@@ -197,8 +178,7 @@
             "beard" : 0,
             "glasses" : 1,
             "gender" : 1,
-            "chapeau" : 0,
-            "sprite" : "sophie.jpg"
+            "chapeau" : 0
         },
         {
             "name" : "stephane",
@@ -207,8 +187,7 @@
             "beard" : 1,
             "glasses" : 0,
             "gender" : 0,
-            "chapeau" : 0,
-            "sprite" : "stephane.jpg"
+            "chapeau" : 0
         },
         {
             "name" : "thomas",
@@ -217,8 +196,7 @@
             "beard" : 3,
             "glasses" : 0,
             "gender" : 0,
-            "chapeau" : 0,
-            "sprite" : "thomas.jpg"
+            "chapeau" : 0
         },
         {
             "name" : "banana",
@@ -227,8 +205,7 @@
             "beard" : -1,
             "glasses" : -1,
             "gender" : -1,
-            "chapeau" : -1,
-            "sprite" : "banana.jpg"
+            "chapeau" : -1
         },
         {
             "name" : "Elliot",
@@ -237,8 +214,7 @@
             "beard" : -1,
             "glasses" : -1,
             "gender" : -1,
-            "chapeau" : -1,
-            "sprite" : "sarah.jpg"
+            "chapeau" : -1
         }
     ]
 }

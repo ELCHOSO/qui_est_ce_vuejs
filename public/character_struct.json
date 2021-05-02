@@ -7,7 +7,8 @@
             "beard" : "bouc",
             "glasses" : false,
             "gender" : "male",
-            "chapeau" : false
+            "chapeau" : false,
+            "yeux": "marron"
         },
         {
             "name" : "ali",
@@ -16,7 +17,8 @@
             "beard" : "aucune",
             "glasses" : true,
             "gender" : "male",
-            "chapeau" : false
+            "chapeau" : false,
+            "yeux": "marron"
         },
         {
             "name" : "amir",
@@ -25,7 +27,8 @@
             "beard" : "aucune",
             "glasses" : false,
             "gender" : "male",
-            "chapeau" : false
+            "chapeau" : false,
+            "yeux": "bleu"
         },
         {
             "name" : "christine",
@@ -34,7 +37,8 @@
             "beard" : "aucune",
             "glasses" : false,
             "gender" : "female",
-            "chapeau" : false
+            "chapeau" : false,
+            "yeux": "bleu"
         },
         {
             "name" : "diego",
@@ -43,7 +47,8 @@
             "beard" : "barbe",
             "glasses" : false,
             "gender" : "male",
-            "chapeau" : false
+            "chapeau" : false,
+            "yeux": "bleu"
         },
         {
             "name" : "hugo",
@@ -52,7 +57,8 @@
             "beard" : "moustache",
             "glasses" : false,
             "gender" : "male",
-            "chapeau" : false
+            "chapeau" : false,
+            "yeux": "bleu"
         },
         {
             "name" : "ines",
@@ -61,7 +67,8 @@
             "beard" : "aucune",
             "glasses" : false,
             "gender" : "female",
-            "chapeau" : true
+            "chapeau" : true,
+            "yeux": "marron"
         },
         {
             "name" : "jacques",
@@ -70,7 +77,8 @@
             "beard" : "moustache",
             "glasses" : false,
             "gender" : "male",
-            "chapeau" : false
+            "chapeau" : false,
+            "yeux": "marron"
         },
         {
             "name" : "julien",
@@ -79,7 +87,8 @@
             "hair_type" : "normal",
             "beard" : "aucune",
             "glasses" : false,
-            "chapeau" : false
+            "chapeau" : false,
+            "yeux": "marron"
         },
         {
             "name" : "laetitia",
@@ -87,7 +96,8 @@
             "hair_type" : "long",
             "beard" : "aucune",
             "glasses" : true,
-            "chapeau" : true
+            "chapeau" : true,
+            "yeux": "marron"
         },
         {
             "name" : "leo",
@@ -96,7 +106,8 @@
             "beard" : "aucune",
             "glasses" : true,
             "gender" : "male",
-            "chapeau" : false
+            "chapeau" : false,
+            "yeux": "bleu"
         },
         {
             "name" : "liam",
@@ -105,7 +116,8 @@
             "beard" : "barbe",
             "glasses" : false,
             "gender" : "male",
-            "chapeau" : true
+            "chapeau" : true,
+            "yeux": "bleu"
         },
         {
             "name" : "lilou",
@@ -114,7 +126,8 @@
             "beard" : "aucune",
             "glasses" : false,
             "gender" : "male",
-            "chapeau" : false
+            "chapeau" : false,
+            "yeux": "marron"
         },
         {
             "name" : "mathieu",
@@ -123,7 +136,8 @@
             "beard" : "aucune",
             "glasses" : true,
             "gender" : "male",
-            "chapeau" : true
+            "chapeau" : true,
+            "yeux": "bleu"
         },
         {
             "name" : "mathis",
@@ -132,7 +146,8 @@
             "beard" : "moustache",
             "glasses" : false,
             "gender" : "male",
-            "chapeau" : false
+            "chapeau" : false,
+            "yeux": "bleu"
         },
         {
             "name" : "nathan",
@@ -141,7 +156,8 @@
             "beard" : "aucune",
             "glasses" : false,
             "gender" : "male",
-            "chapeau" : false
+            "chapeau" : false,
+            "yeux": "bleu"
         },
         {
             "name" : "noemie",
@@ -150,7 +166,8 @@
             "beard" : "aucune",
             "glasses" : false,
             "gender" : "female",
-            "chapeau" : false
+            "chapeau" : false,
+            "yeux": "marron"
         },
         {
             "name" : "pauline",
@@ -159,7 +176,8 @@
             "beard" : "aucune",
             "glasses" : true,
             "gender" : "female",
-            "chapeau" : false
+            "chapeau" : false,
+            "yeux": "bleu"
         },
         {
             "name" : "sebastien",
@@ -168,7 +186,8 @@
             "beard" : "aucune",
             "glasses" : false,
             "gender" : "male",
-            "chapeau" : true
+            "chapeau" : true,
+            "yeux": "bleu"
         },
         {
             "name" : "sophie",
@@ -177,7 +196,8 @@
             "beard" : "aucune",
             "glasses" : true,
             "gender" : "female",
-            "chapeau" : false
+            "chapeau" : false,
+            "yeux": "bleu"
         },
         {
             "name" : "stephane",
@@ -186,7 +206,8 @@
             "beard" : "barbe",
             "glasses" : false,
             "gender" : "male",
-            "chapeau" : false
+            "chapeau" : false,
+            "yeux": "marron"
         },
         {
             "name" : "thomas",
@@ -195,7 +216,8 @@
             "beard" : "moustache",
             "glasses" : false,
             "gender" : "male",
-            "chapeau" : false
+            "chapeau" : false,
+            "yeux": "bleu"
         },
         {
             "name" : "banana",
@@ -204,7 +226,8 @@
             "beard" : "banana",
             "glasses" : "banana",
             "gender" : "banana",
-            "chapeau" : "banana"
+            "chapeau" : "banana",
+            "yeux": "inconnu"
         },
         {   
             "name" : "elliot",
@@ -213,7 +236,8 @@
             "beard" : "aucune",
             "glasses" : false,
             "gender" : "male",
-            "chapeau" : false
+            "chapeau" : false,
+            "yeux": "marron"
         }
     ]
 }

@@ -1,0 +1,84 @@
+{
+    "questions": [
+        {
+            "question": "Est-ce un homme ?",
+            "type": "gender",
+            "answer": ["male"]
+        },
+        {
+            "question": "Est-ce un femme ?",
+            "type": "gender",
+            "answer": ["femme"]
+        },
+        {
+            "question": "A-t-il des cheveux ?",
+            "type": "hair_type",
+            "answer": ["long", "normal", "inconnu"]
+        },
+        {
+            "question": "Est-t'il chauve ?",
+            "type": "hair_type",
+            "answer": ["bald"]
+        },
+        {
+            "question": "A-t-il une barbe ?",
+            "type": "beard",
+            "answer": ["barbe"]
+        },
+        {
+            "question": "A-t-il un bouc ?",
+            "type": "beard",
+            "answer": ["bouc"]
+        },
+        {
+            "question": "A-t-il une moustache ?",
+            "type": "beard",
+            "answer": ["moustache"]
+        },
+        {
+            "question": "Est-t'il blond ?",
+            "type": "hair_colour",
+            "answer": ["blond"]
+        },
+        {
+            "question": "Est-t'il roux ?",
+            "type": "hair_colour",
+            "answer": ["roux"]
+        },
+        {
+            "question": "Est-t'il brun ?",
+            "type": "hair_colour",
+            "answer": ["chatin"]
+        },
+        {
+            "question": "A-t-il les cheveux blancs ?",
+            "type": "hair_colour",
+            "answer": ["blanc"]
+        },
+        {
+            "question": "A-t-il les yeux bleux ?",
+            "type": "yeux",
+            "answer": ["bleu"]
+        },
+        {
+            "question": "A-t-il les yeux marrons ?",
+            "type": "yeux",
+            "answer": ["marron"]
+        },
+        {
+            "question": "A-t-il un chapeau ?",
+            "type": "chapeau",
+            "answer": [true]
+        },
+        {
+            "question": "Est-t'il imberbe ?",
+            "type": "beard",
+            "answer": ["aucune"]
+        },
+        {
+            "question": "A-t-il des lunettes ?",
+            "type": "glasses",
+            "answer": [true]
+        }
+    ]
+}

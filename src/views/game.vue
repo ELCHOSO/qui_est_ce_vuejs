@@ -40,6 +40,21 @@
                 </v-container>
             </v-col>
         </v-row>
+        <v-row justify="center" align="center">
+
+            <v-dialog v-click-outside="dialog = false" v-model="dialog" width="150">
+                <template v-slot:activator="{ on, attrs }">
+                    <div v-for="ques in questions" :key="ques.question">
+                        <v-btn elevation="0" class="ma-1" @click="question(ques)" v-bind="attrs" v-on="on">
+                            {{ques.question}}
+                        </v-btn>
+                    </div>
+                </template>
+                <v-card>
+                    {{oui}}
+                </v-card>
+            </v-dialog>
+        </v-row>
     </v-app>
 </template>
 
@@ -72,6 +87,7 @@ import thomas from '../../public/characters/thomas.jpg'
 import banana from '../../public/characters/banana_anonymous.png'
 import elliot from '../../public/characters/mr_robot.png'
 import epitech from '../assets/Epitech.png'
+import questions from '../../public/questions.json'
 export default {
   name: 'Game',
   data: () => m,
@@ -113,6 +129,8 @@ export default {
     this.show_btn = false
     this.dialog = false
     this.win = false
+    this.oui = 'Oui'
+    this.questions = questions.questions
   },
   methods: {
     check_cheatcode () {
@@ -138,6 +156,7 @@ export default {
       this.$forceUpdate()
     },
     reset () {
+      this.answer = Math.floor(Math.random() * 24)
       this.characters.forEach(char => {
         char.valid = true
       })
@@ -153,6 +172,14 @@ export default {
       })
       if (this.characters[this.answer].name === this.characters[i].name) {
         this.win = true
+      }
+      this.$forceUpdate()
+    },
+    question (ques) {
+      if (ques.answer.indexOf(this.characters[this.answer][ques.type]) !== -1) {
+        this.oui = 'Oui'
+      } else {
+        this.oui = 'Non'
       }
       this.$forceUpdate()
     }

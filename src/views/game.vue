@@ -1,17 +1,28 @@
 <template>
     <v-app :style="{ backgroundColor: bgColor }">
         <v-app-bar fixed clipped-left dense color="#673AB7" elevation="0">
-            epitech
+            <img :src="epitech">
             <v-spacer></v-spacer>
-            cheatcode
+            <v-text-field v-model="cheatcode" color="cyan darken" @change="check_cheatcode"></v-text-field>
         </v-app-bar>
+        <v-row justify="center" align="center" class="mt-12">
+            <h1>
+            La réponse
+            </h1>
+        </v-row>
+        <v-row justify="center" align="center">
+            <img :src="characters[answer].sprite" v-if="reveal">
+            <img :src="flipped" v-else>
+        </v-row>
         <v-row align="center" justify="center">
             <v-col>
                 <v-container fluid grid-list-md>
                     <v-layout row wrap>
-                        <v-flex v-for="char in characters" :key="char.name">
+                        <v-flex v-for="(char,index) in characters" :key="char.name">
                             <v-card>
-                                <img :src="char.sprite">
+                                <v-switch v-model="char.valid" @change="switch_image(index)"></v-switch>
+                                <img :src="char.sprite" v-if="char.valid">
+                                <img :src="flipped" v-else>
                             </v-card>
                         </v-flex>
                     </v-layout>
@@ -24,6 +35,7 @@
 <script>
 import m from './model'
 import characters from '../../public/character_struct.json'
+import who from '../../public/characters/qui_est_ce.png'
 import alain from '../../public/characters/alain.jpg'
 import ali from '../../public/characters/ali.jpg'
 import amir from '../../public/characters/amir.jpg'
@@ -48,6 +60,7 @@ import stephane from '../../public/characters/stephane.jpg'
 import thomas from '../../public/characters/thomas.jpg'
 import banana from '../../public/characters/banana_anonymous.png'
 import elliot from '../../public/characters/mr_robot.png'
+import epitech from '../assets/Epitech.png'
 export default {
   name: 'Game',
   data: () => m,
@@ -77,6 +90,27 @@ export default {
     this.characters[21].sprite = thomas
     this.characters[22].sprite = banana
     this.characters[23].sprite = elliot
+    this.characters.forEach(char => {
+      char.valid = true
+    })
+    this.answer = Math.floor(Math.random() * 24)
+    this.flipped = who
+    this.epitech = epitech
+    this.cheatcode = ''
+    this.reveal = false
+  },
+  methods: {
+    check_cheatcode () {
+      if (this.cheatcode === 'banana') {
+        this.reveal = true
+      } else {
+        this.reveal = false
+      }
+      this.$forceUpdate()
+    },
+    switch_image (index) {
+      this.$forceUpdate()
+    }
   }
 }
 </script>
